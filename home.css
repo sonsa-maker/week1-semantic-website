@@ -1,0 +1,177 @@
+h1 {
+    text-align: center;
+}
+body{
+    background-color: brown;
+}
+h1 span{
+    background-color: burlywood;
+    color: brown;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+nav {
+    background: #d2b48c;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+nav a {
+    color: #6b2d0c;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+    background: #6b2d0c;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+h2 span {
+    color: brown;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 25px 0;
+}
+
+.image-gallery img {
+    width: 320px;
+    height: 230px;
+    object-fit: cover;
+    border: 5px solid burlywood;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,.25);
+    transition: 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+p span {
+    color: brown;
+    background-color: burlywood;
+    padding: 1px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff8dc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu-table th {
+    background-color: #8B4513;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.menu-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: #f9f2e8;
+}
+
+.menu-table tr:hover {
+    background-color: #ffe4b5;
+}
+
+.menu-table td:last-child,
+.menu-table th:last-child {
+    text-align: center;
+}
+caption{
+      background-color: burlywood;
+    color: brown;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    font-style: italic;
+}
+.products{
+          background-color: burlywood;
+    color: brown;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+.btitle {
+    text-align: center;
+}
+.menu{
+    background-color: burlywood;
+    color: brown;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    font-style: italic;
+    display: inline-block;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.info-card {
+    width: 70%;
+    max-width: 500px;
+    margin: auto;
+    background: #fdf5e6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    color: #4a2c2a;
+}
+
+.info-card h3 {
+    margin-top: 20px;
+    color: brown;
+}
+
+.info-card p {
+    margin: 12px 0;
+}
+
+.info-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-card li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-card li:last-child {
+    border-bottom: none;
+}
